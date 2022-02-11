@@ -1,0 +1,13 @@
+$bgcol: #e3c1ae;
+$txcol: #fff;
+
+.myButton {
+  background-color: $bgcol;
+  border: 2px solid $bgcol;
+  color: $txcol;
+}
+
+.myButton:hover {
+  background-color: $txcol;
+  color: $bgcol;
+}
